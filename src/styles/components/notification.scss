@@ -1,0 +1,229 @@
+@import "~bootstrap/scss/bootstrap";
+
+/*
+body {
+  font-family: $font-family-text;
+  font-size: $font-size-default;
+  font-weight: 500;
+}
+*/
+body{
+  background-color:hsl(211, 68%, 94%);
+}
+
+$color-letra-negrilla :#000000; 
+$color-gris: hsl(219, 12%, 42%);
+
+// .circleNotification {
+//   width: 10px;
+//   height: 10px;
+//   -moz-border-radius: 50%;
+//   -webkit-border-radius: 50%;
+//   border-radius: 50%;
+//   background: #f21313;  
+// }
+
+
+.textNegrilla{
+  font-weight: 700;
+  color: $color-letra-negrilla; 
+}
+
+.texNegrilla2{
+  font-size: 17px;
+  padding-bottom: 12px;
+}
+
+.cuadrado{
+  font-weight: 700;
+
+  background-color: hsl(219, 100%, 24%);
+  color: aliceblue;
+  border-radius: 4px;
+  padding: 0.1em 0.7rem;
+  
+}
+
+.message1 {
+  color: $color-gris;
+}
+
+.message2{
+  color: $color-gris;
+  font-weight: 700;
+  // flex-wrap: wrap;
+}
+
+.time{
+  color:hsl(219, 14%, 63%);
+  margin: bottom 1px;
+}
+
+.messageContent {
+  // padding: 4px 2px;
+  // padding-top: 5px;
+  display: flex;
+  // padding-left: 4%;
+  // flex-wrap: wrap;
+  gap: 5px;
+  padding-bottom: 1px;
+  padding-top: -3px;
+}
+
+.colParrafos{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: start;
+}
+
+.parrafos{
+  // display: flex;
+  display: inline-block;
+  // justify-content: flex-start;
+  text-align: start;
+  // margin-top: 2px;
+  // padding-bottom: 1px;
+  // margin-bottom: 1px;
+}
+
+.rowTime{
+  display: inline-block;
+  display: flex;
+  text-align: start;
+  margin-top: -20px;
+  margin-bottom: -37px;
+    
+}
+
+.mess {
+  height: 30%;
+  // padding: 0px 0px 0px 0px;
+  padding-left: 0px;
+
+}
+
+.conten{
+  margin-left: 1px;
+}
+
+
+.contenedorAVATAR{
+  width: 50px;
+  height: 50px;
+  // display: grid;
+  margin-top: -1px;
+  padding-top: -4px;
+  place-items: center;
+  margin-right: 12px;
+
+  // margin: auto;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+ 
+  
+  
+}
+.containerN{
+  margin: 6% auto;
+  
+}
+
+
+
+.layout-helper {
+  
+  background-color: white;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+  // height: auto;
+  border-radius: 16px;
+
+  // gap: 4px;
+  // width: 98%;
+
+  &__notif {
+    @extend .layout-helper;
+    border: 1px solid red;
+    // text-align: center;
+  //  display: flex;
+  //  align-items: center;
+  
+   
+  }
+
+.containerPpal{
+  padding-top: 15px; 
+  display: flex;
+  
+  // align-items: center;
+  // text-align: center;
+  // padding-right: 2px;
+}
+
+
+.colAvatar{
+  background-color: none;
+   margin-top: 8px;
+  //  padding: 2px;
+  // justify-content: center;
+  // display: flex;
+  // margin-right: 2%;
+}
+
+// .mess {
+//   margin-top: 15px;
+// }
+
+.colorNotification{
+  background-color: hsl(205, 33%, 90%);
+  border: none;
+  border-radius: 6px;
+  height: 16%;
+  margin-right: 3px;
+
+}
+
+// .rowAvatar{
+// }
+
+.containerGeneral {
+  border: 2px solid orange;
+  background-color: rgb(180, 229, 90);
+
+}
+
+.avatarClass {
+  padding-top: 1px;
+  margin-top: -10px;
+  // display: flex;
+  // align-items: center;
+ }
+
+.mensajeInbox{
+  margin-bottom: 10%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  
+}
+
+
+
+ .cuadroInbox{
+  display: block;
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+  color: $color-gris;
+ }
+
+
+// .inboox{
+  
+//  }
+
+.sinInbox{
+  // background-color: red;
+  color: blue;
+}
+ 
+}
